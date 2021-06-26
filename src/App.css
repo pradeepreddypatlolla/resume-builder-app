@@ -1,38 +1,122 @@
-.App {
+.AppTitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
   text-align: center;
+  margin-bottom: 50px;
+}
+.mainDiv{
+  display:flex;
+  width:80%;
+  margin: auto;
+}
+.resumeForm{
+  border: solid;
+  width: 1500px;
+  height: 2480px;
+  border-width:1px ;
+  padding: 10px;
+}
+.resume{
+  
+  padding: 10px;
+  margin-left: 50px;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  
+  background-color: #f1f1f1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon{
+  font-size: 24px;
+  background-color: white;
+  color: #32ac36;
+  margin: 1px;
+  padding: 1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items:center ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.modal-content{
+  width: 500px;
+  background-color: #fff;
+}
+.modal-footer{
+  padding: 10px;
+}
+.modal-body{
+  padding: 10px;
+  
+}
+
+textarea,input[type=text],[type=email],[type=number],[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button{
+  background-color: #32ac36;
+  border: none;
   color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+.resume1{
+  background-color: white;
+  
+}
+.headerDiv1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 30px;
+  background-color:#4267B2;
+  color: #fff;
+  height: 100px;
+}
+.nameDiv1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+.bodyDiv1{
+  padding-left: 30px;
+}
+.summaryTitle1,.skillsTitle1,.experienceTitle1,.educationTitle1{
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 15px;
+  border-bottom:solid 1px rgba(79, 146, 233, 0.966);
+
+}
+.summaryBody1,.experienceBody1,.skillsBody1,.educationBody1{
+  margin-top: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.resume2{
+  display: flex;
+}
+.leftDiv2{
+
+  background-color: black;
+
+}
+.righDiv2{
+  background-color: chocolate;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
